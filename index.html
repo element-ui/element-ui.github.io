@@ -1,0 +1,457 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>小白编码 - 小白编码的个人博客</title><meta name="keywords" content="小白编码博客"><meta name="author" content="楠楠,2967911782@qq.com"><meta name="copyright" content="楠楠"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="风不知去向，迷失了小白">
+<meta property="og:type" content="website">
+<meta property="og:title" content="小白编码">
+<meta property="og:url" content="https://element-ui.github.io/index.html">
+<meta property="og:site_name" content="小白编码">
+<meta property="og:description" content="风不知去向，迷失了小白">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://element-ui.github.io/media/car.png">
+<meta property="article:author" content="楠楠">
+<meta property="article:tag" content="小白编码博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://element-ui.github.io/media/car.png"><link rel="shortcut icon" href="/element-ui.github.io/media/car.png"><link rel="canonical" href="https://element-ui.github.io/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/element-ui.github.io/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/element-ui.github.io/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '小白编码',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-05-28 22:34:20'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    document.addEventListener('pjax:complete', detectApple)})(window)</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/media/car.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/element-ui.github.io/archives/"><div class="headline">文章</div><div class="length-num">5</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/element-ui.github.io/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 博文</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/element-ui.github.io/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/element-ui.github.io/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/element-ui.github.io/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/element-ui.github.io/Gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/element-ui.github.io/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/element-ui.github.io/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/element-ui.github.io/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我的</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/element-ui.github.io/Gallery/wallpaper/top.jpg')"><nav id="nav"><span id="weather-v2-plugin-simple"></span><span id="blog_name"><a id="site-name" href="/element-ui.github.io/">小白编码</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/element-ui.github.io/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 博文</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/element-ui.github.io/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/element-ui.github.io/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/element-ui.github.io/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/element-ui.github.io/Gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/element-ui.github.io/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/element-ui.github.io/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/element-ui.github.io/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我的</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">小白编码</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="mailto:你的邮箱" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://github.com/element-ui" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://gitee.com/cxnwhite" target="_blank" title="Gitee"><i class="fab fa-gitee"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/element-ui.github.io/blog/Vue2/" title="前端框架Vue2，你知道Vue2吗？">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/11.png" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="前端框架Vue2，你知道Vue2吗？"></a></div><div class="recent-post-info"><a class="article-title" href="/element-ui.github.io/blog/Vue2/" title="前端框架Vue2，你知道Vue2吗？">前端框架Vue2，你知道Vue2吗？</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-24T10:54:46.000Z" title="发表于 2022-05-24 18:54:46">2022-05-24</time></span></div><div class="content">Vue简介什么是Vue?Vue：是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。
+构建用户界面：将得到的数据展示到页面上
+渐进式：可以自底向上逐层应用，简单应用：只需一个轻量小巧的核心库，复杂应用：可以引入各式各样的Vue插件
+作者：尤雨溪
+Vue的特点？
+采用组件化模式，提高代码复用率、且让代码更好维护。
+
+声明式编码，让编码人员无需直接操作DOM,提高开发效率
+
+
+使用虚拟DOM（根据data中的数据生成虚拟的DOM,将这些虚拟DOM存储在内存中）+优秀的Dif算法，尽量复用DOM节点。
+
+
+
+补充：命令式编程，就是一步一步的指令来执行
+
+搭建Vue开发环境
+下载Vue.js文件
+可以使用CDN引入在线的Vue.js文件
+开发者工具（调式用的）
+
+Vue.js官网—学习—教程—安装—Vue Devtools—Installation—Get the Chrome Extension（这是谷歌的）
+出现的警告：
+
+解决办法：添加一个调式工具（在扩展工具中）
+
+ ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/element-ui.github.io/blog/Ajax/" title="你该不会还不知道什么是Ajax吧？">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/5.jpg" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="你该不会还不知道什么是Ajax吧？"></a></div><div class="recent-post-info"><a class="article-title" href="/element-ui.github.io/blog/Ajax/" title="你该不会还不知道什么是Ajax吧？">你该不会还不知道什么是Ajax吧？</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-14T08:24:06.000Z" title="发表于 2022-05-14 16:24:06">2022-05-14</time></span></div><div class="content">AJax
+什么是 AJAX？AJAX = Asynchronous JavaScript And XML.
+AJAX 并非编程语言。
+AJAX 仅仅组合了：
+
+浏览器内建的 XMLHttpRequest 对象（从 web 服务器请求数据）
+JavaScript 和 HTML DOM（显示或使用数据）
+
+Ajax 是一个令人误导的名称。Ajax 应用程序可能使用 XML 来传输数据，但将数据作为纯文本或 JSON 文本传输也同样常见。
+Ajax 允许通过与场景后面的 Web 服务器交换数据来异步更新网页。这意味着可以更新网页的部分，而不需要重新加载整个页面。
+Ajax的缺点：
+
+没有浏览历史，不能回退
+存在跨域问题（同源）
+SEO不友好
+
+AJAX 如何工作
+
+网页中发生一个事件（页面加载、按钮点击）
+由 JavaScript 创建 XMLHttpRequest 对象
+XMLHttpRequest 对象向 web 服务器发送请求
+服务器处理该请求
+服务器将响应发送回网页
+由 JavaScript 读取响应
+由 JavaScript 执行正确的动作（比如更新页面）
+
+AJAX - XMLH ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/element-ui.github.io/blog/media/" title="什么是媒体查询？">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/car3.png" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="什么是媒体查询？"></a></div><div class="recent-post-info"><a class="article-title" href="/element-ui.github.io/blog/media/" title="什么是媒体查询？">什么是媒体查询？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-16T02:44:00.000Z" title="发表于 2022-05-16 10:44:00">2022-05-16</time></span></div><div class="content">什么是媒体查询
+媒体查询（Media Query）是CSS3新语法。
+
+
+使用@media查询，可以针对不同的媒体类型定义不同的样式
+@media可以针对不同的屏幕尺寸设置不同的样式
+当你重置浏览器大小的过程中，页面也会根据浏览器的宽度和高度重新渲染页面
+目前针对很多苹果手机、Android手机，平板等设备都用得到媒体查询
+
+语法规范123@media mediatype and|not|only (media feature)&#123;      css-code;&#125;
+
+用@media开通 注意@符号
+mediatype 媒体类型
+关键字 and not only
+media feature 媒体特性，必须有小括号包含
+
+mediatype查询类型
+将不同的终端设备划分为不同的类型，称为媒体类型
+
+
+
+
+
+值
+解释说明
+
+
+
+
+all
+用于所有设备
+
+
+print
+用于打印机和打印预览
+
+
+scree
+用于电脑屏幕，平板电脑，智能手机等
+
+
+
+
+关键字
+关键字将媒体类型或多个特性连接到一起做为媒体查询的条件
+
+
+and：可以将多个媒体特性连接到一起，相当”且”于的意思
+n ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/element-ui.github.io/blog/git/" title="你想知道git命令吗？进来看看！">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/6.jpg" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="你想知道git命令吗？进来看看！"></a></div><div class="recent-post-info"><a class="article-title" href="/element-ui.github.io/blog/git/" title="你想知道git命令吗？进来看看！">你想知道git命令吗？进来看看！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-14T08:24:06.000Z" title="发表于 2022-05-14 16:24:06">2022-05-14</time></span></div><div class="content">git命令
+git创建仓库和remote第一步：再github.com页面找到+号
+
+第二步：
+
+第三步：复制仓库的地址
+
+第四步：remote
+1git remote add 名字 仓库地址
+
+将资料推送到远程库中1234567891011121314151617181920212223#查看状态git status#暂存区git add .#提交到本地仓库git commit -m &quot;说明&quot;#查看分支git branch#切换分支git chekout 分支名#合并分支git merge 分支名，#这里的分支名是要合并在被选中分支名上#查看当前所有远程地址别名git remote -v#提交到远程库git push -u remote名称 分支名
+遇到的问题git status
+解决办法：
+1git init # 初始化仓库
+
+git commit
+解决办法：
+12git config --global user.email &quot;邮箱&quot;git config --global user.name &quot;账号&quot;
+git push
+解 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/element-ui.github.io/blog/markdown/" title="我猜你不太会markdown语法？">     <img class="post_bg" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/7.jpg" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="我猜你不太会markdown语法？"></a></div><div class="recent-post-info"><a class="article-title" href="/element-ui.github.io/blog/markdown/" title="我猜你不太会markdown语法？">我猜你不太会markdown语法？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-14T08:24:06.000Z" title="发表于 2022-05-14 16:24:06">2022-05-14</time></span></div><div class="content">markdown语法的使用目录斜体和粗体代码：
+123451. *斜体*或_斜体_2. **粗体**3. ***加粗斜体***4. ~~删除线~~  
+显示效果：
+
+这是一段斜体
+这是一段粗体
+这是一段加粗斜体
+这是一段删除线
+
+分级标题写法：
+12345671. # 一级标题2. ## 二级标题3. ### 三级标题4. #### 四级标题5. ##### 五级标题6. ###### 六级标题
+显示效果：
+一级标题二级标题三级标题四级标题五级标题六级标题超链接Markdown 支持两种形式的链接语法： 行内式和参考式两种形式，行内式一般使用较多。
+行内式语法说明：
+[]里写链接文字，()里写链接地址, ()中的”“中可以为链接指定title属性，title属性可加可不加。title属性的效果是鼠标悬停在链接上会出现指定的 title文字。链接文字’这样的形式。链接地址与链接标题前有一个空格。代码：
+12341. 欢迎来到[梵居闹市](http:&#x2F;&#x2F;blog.leanote.com&#x2F;freewalk)2.3. 欢迎来到[梵居闹市](http:&#x2F;& ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/media/car.png" onerror="this.onerror=null;this.src='/element-ui.github.io/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">楠楠</div><div class="author-info__description">风不知去向，迷失了小白</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/element-ui.github.io/archives/"><div class="headline">文章</div><div class="length-num">5</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/element-ui"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:你的邮箱" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://github.com/element-ui" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://gitee.com/cxnwhite" target="_blank" title="Gitee"><i class="fab fa-gitee"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div><timing></timing></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/element-ui.github.io/blog/Vue2/" title="前端框架Vue2，你知道Vue2吗？"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/11.png" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="前端框架Vue2，你知道Vue2吗？"/></a><div class="content"><a class="title" href="/element-ui.github.io/blog/Vue2/" title="前端框架Vue2，你知道Vue2吗？">前端框架Vue2，你知道Vue2吗？</a><time datetime="2022-05-24T10:54:46.000Z" title="发表于 2022-05-24 18:54:46">2022-05-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/element-ui.github.io/blog/media/" title="什么是媒体查询？"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/car3.png" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="什么是媒体查询？"/></a><div class="content"><a class="title" href="/element-ui.github.io/blog/media/" title="什么是媒体查询？">什么是媒体查询？</a><time datetime="2022-05-16T02:44:00.000Z" title="发表于 2022-05-16 10:44:00">2022-05-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/element-ui.github.io/blog/Ajax/" title="你该不会还不知道什么是Ajax吧？"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/5.jpg" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="你该不会还不知道什么是Ajax吧？"/></a><div class="content"><a class="title" href="/element-ui.github.io/blog/Ajax/" title="你该不会还不知道什么是Ajax吧？">你该不会还不知道什么是Ajax吧？</a><time datetime="2022-05-14T08:24:06.000Z" title="发表于 2022-05-14 16:24:06">2022-05-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/element-ui.github.io/blog/git/" title="你想知道git命令吗？进来看看！"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/element-ui.github.io/Gallery/car/6.jpg" onerror="this.onerror=null;this.src='/element-ui.github.io/img/404.jpg'" alt="你想知道git命令吗？进来看看！"/></a><div class="content"><a class="title" href="/element-ui.github.io/blog/git/" title="你想知道git命令吗？进来看看！">你想知道git命令吗？进来看看！</a><time datetime="2022-05-14T08:24:06.000Z" title="发表于 2022-05-14 16:24:06">2022-05-14</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/element-ui.github.io/archives/2022/05/"><span class="card-archive-list-date">五月 2022</span><span class="card-archive-list-count">5</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-05-13T16:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">36.7k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-05-28T14:34:20.609Z"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/element-ui.github.io/Gallery/wallpaper/top.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2022 By 楠楠</div><div class="footer_custom_text">粤ICP备2021151957号 || cxnwhite.cn</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/element-ui.github.io/js/utils.js"></script><script src="/element-ui.github.io/js/main.js"></script><script src="/element-ui.github.io/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/element-ui.github.io/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    var typed = new Typed("#subtitle", {
+      strings: "未来的成就是⾃⼰给的，追加的只不过是别⼈对你的看法，⽽真正懂得却是⾃⼰，只有相信⾃⼰，才能有⼀个好的未来。,Future achievements are their own, add is only the views of others on you, but really know is their own, only believe in themselves, can have a good future.,知识来自实践。,Knowledge comes from experience alone.,世间无所谓天才，它仅是刻苦加勤奋。,There is no such thing as genius; it is nothing but labour and diligence.".split(","),
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '未来的成就是⾃⼰给的，追加的只不过是别⼈对你的看法，⽽真正懂得却是⾃⼰，只有相信⾃⼰，才能有⼀个好的未来。'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(() => {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'default',
+      })
+      true && mermaid.init()
+    })
+  }
+}</script></div><div class="aplayer no-destroy" data-id="7675104902" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" muted></div><script src="/js/timing.js"></script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" data-mobile="true" data-text="I,LOVE,YOU,ccy,陈小胖,楠楠" data-fontsize="15px" data-random="true" async="async"></script><script src="//code.tidio.co/rsetkbnsat3bxutygkivj0qn2rdg66qo.js" async="async"></script><script>function onTidioChatApiReady() {
+  window.tidioChatApi.hide();
+  window.tidioChatApi.on("close", function() {
+    window.tidioChatApi.hide();
+  });
+}
+if (window.tidioChatApi) {
+  window.tidioChatApi.on("ready", onTidioChatApiReady);
+} else {
+  document.addEventListener("tidioChat-ready", onTidioChatApiReady);
+}
+
+var chatBtnFn = () => {
+  document.getElementById("chat_btn").addEventListener("click", function(){
+    window.tidioChatApi.show();
+    window.tidioChatApi.open();
+  });
+}
+chatBtnFn()
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config-diff',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.removeEventListener('scroll', window.tocScrollFn)
+  window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://unpkg.zhimg.com/hexo-butterfly-clock/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = '/posts/,/about/'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_injector_config();
+  }
+  </script><script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script data-pjax src="https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.js"></script><!-- hexo injector body_end end --><script src="/element-ui.github.io/live2d_models/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2d_models/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/element-ui.github.io/live2d_models/assets/wanko.model.json"},"display":{"position":"left","width":100,"height":150,"hOffset":-10,"vOffset":40},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body></html>
